@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love you, Emu.</title>
+</head>
+<body>
+    <h1>Play Me</h1>
+    <audio id="audioPlayer" controls>
+        <source src="emukins.m4a" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script>
+        // JavaScript can be used to control the audio player if needed
+        const audioPlayer = document.getElementById('audioPlayer');
+
+        // Example: Play the audio automatically when the page loads
+        window.onload = function() {
+            audioPlayer.play();
+        };
+    </script>
+</body>
+</html>
